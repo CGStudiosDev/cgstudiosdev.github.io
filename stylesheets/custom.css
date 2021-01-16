@@ -1,0 +1,91 @@
+@font-face {
+	font-family: Ubuntu;
+	src: url(Ubuntu-Regular.ttf),
+	url("Ubuntu-Regular.woff");
+  }
+
+@font-face {
+	font-family: Ubuntu Light;
+	src: url("Ubuntu-Light.ttf"),
+	url("Ubuntu-Light.woff");
+}
+
+body,html {
+	height: 100%;
+	min-height: 100%;
+	background-color: #ffffff;
+	overflow: hidden;
+	background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+header {
+	background-color: #111111;
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px;
+}
+
+header > div > h1 {
+	color: #EEEEEE;
+	font-family: "Ubuntu", Sans-Serif;
+	margin-left: 25px;
+	vertical-align: middle;
+}
+
+header > div > img {
+	float: left;
+	margin-left: 25px;
+	height: 3em;
+	margin-right: 15px;
+	vertical-align: top;
+	margin-top: -5px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background-color: whitesmoke;
+	height: 50px;
+	width: 100%;
+	left: 0;
+	margin: 0;
+	padding: 5px;
+}
+
+footer > div > a {
+	font-family: "Ubuntu Light", Sans-Serif;
+	margin-left: 25px;
+	vertical-align: middle;
+	color: #111111;
+	text-decoration: none;
+	top: 1.25em;
+	left: 3em;
+	position: absolute;
+}
+
+footer > #jolt {
+	position: relative;
+	left: 5em;
+}
+
+footer > #jolt > a {
+	position: absolute;
+	top: 1em;
+	left: 4.5em;
+}
+
+body {
+	position: relative;
+	margin: 0;
+}
+
+footer > div > img {
+	height: 2em;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
