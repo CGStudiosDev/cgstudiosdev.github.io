@@ -1,9 +1,9 @@
 const themes = {
     light: {
-        logo: "images/cgstudiosalphadark.png",
+        logo: "images/cgstudiosalpha.png",
     },
     dark: {
-        logo: "images/cgstudiosalpha.png",
+        logo: "images/cgstudiosalphadark.png",
     }
 }
 
