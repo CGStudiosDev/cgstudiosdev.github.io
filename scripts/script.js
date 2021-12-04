@@ -1,9 +1,16 @@
-function switchimg() {
-    document.getElementById("logoimg").src = "images/cgstudiosalpha.png"
+const themes = {
+    light: {
+        logo: "images/cgstudiosalphadark.png",
+    },
+    dark: {
+        logo: "images/cgstudiosalpha.png",
+    }
 }
 
-function switchimgback() {
-    document.getElementById("logoimg").src = "images/cgstudiosalphadark.png"
+function switchimg()
+{
+    let imageSrc = document.getElementById('logoimg').src;
+    imageSrc == themes.light.logo ? imageSrc = themes.dark.logo : imageSrc= themes.light.logo;
 }
 
 function home() {
